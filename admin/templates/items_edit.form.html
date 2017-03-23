@@ -1,0 +1,114 @@
+{include file="header.html"}
+{include file="_menu_top.html"} 
+{include file="_menu_left.html"} 
+ 
+ <!-- Content Wrapper. Contains page content -->
+      <div class="content-wrapper">
+        <!-- Content Header (Page header) -->
+        <section class="content-header">
+          <h1>
+            Product
+            <small>Management</small>
+          </h1>
+          <ol class="breadcrumb">
+            <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+            <li class="active">Product Management</li>
+          </ol>
+        </section>
+
+        <!-- Main content -->
+        <section class="content">
+         
+           
+           
+			
+			<div class="box">
+                <div class="box-header">
+                  <h3 class="box-title"> </h3>
+                </div><!-- /.box-header -->
+                <div class="box-body">
+					
+					
+						<form method="post" id="goods_form" enctype="multipart/form-data">
+						  <div class=col-sm-6>	 
+								<div class="form-group">
+			                    <label>Image:<font color="#ff0000">*</font></label>
+			                     
+			                      <p><img src="{$items.logo}" width="300"  ectype="store_logo" /></p>
+			                     
+			                  </div>
+						</div>
+						<div class=col-sm-6>	
+							<div class="form-group">
+			                    <label>Product Code:<font color="#ff0000">*</font></label>
+			                     
+			                      <input name="good_code" value="{$items.item_id}" type="text" autocomplete="Off" readonly class="form-control" />
+			                    	<input  name="show_id" type="hidden" value="{$items.show_id}" >
+			                  </div>
+							<div class="form-group">
+			                    <label>Name:<font color="#ff0000">*</font></label>
+			                     
+			                      <textarea class="form-control" rows="3" name="thai">{$items.thai}</textarea> 
+			                    
+			                  </div>
+
+							
+
+						 	<div class="form-group">
+			                    <label>Price:<font color="#ff0000">*</font></label>
+			                     
+			                      
+								<input name="price" value="{$items.price}" type="text" autocomplete="Off" class="form-control" /> 
+			                    
+			                  </div>
+
+							<div class="form-group">
+			                    <label>ส่วนลด:<font color="#ff0000">*</font></label>
+			                     
+			                      
+								<input name="saleper" value="{$items.saleper}" type="text" autocomplete="Off" class="form-control" /> 
+			                    
+			                  </div>
+						 	 
+							 <div class="form-group">
+			                    <label>สินค้าลดราคา: </label>
+			                     
+			                      <select name="sale" class="form-control">
+				                        <option {if $items.sale eq '1' } selected  {/if} value="1">ใช่</option>
+				                        <option {if $items.sale eq '0' } selected  {/if}  value="0">ไม่ใช่</option>
+				                         
+				                      </select>
+			                  </div>
+							 
+							<div class="form-group">
+			                    <label>สินค้าใหม่: </label>
+			                     
+			                      <select name="new" class="form-control">
+				                        <option {if $items.new eq '1' } selected  {/if} value="1">ใช่</option>
+				                        <option {if $items.new eq '0' } selected  {/if}  value="0">ไม่ใช่</option>
+				                         
+				                      </select>
+			                  </div>
+						 	<div class="form-group">
+			                    <label>ลำดับการแสดงผล: </label>
+			                     <input name="sort_order" value="{$items.sort_order}" type="text" autocomplete="Off" class="form-control" /> 
+			                       
+			                  </div>
+							<div class="box-footer">
+                    			<button type="submit" id="profile_update"  class="btn btn-primary">Submit</button>
+                  			</div>
+						</div>	
+                  		</form>
+				  
+                </div><!-- /.box-body -->
+              </div><!-- /.box -->
+            </div><!-- /.col -->
+          </div><!-- /.row -->
+
+        </section><!-- /.content -->
+      </div><!-- /.content-wrapper -->  
+ 
+
+ 
+{include file="footer.html"}
+

@@ -1,0 +1,46 @@
+Wed, 01 Mar 2017 02:06:44 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Sat, 11 Mar 2017 17:26:52 +0700	[256]MySQL Error[1054]: Unknown column 'member_id' in 'where clause'
+MySQL Query:SELECT COUNT(*) as c FROM mex_member member WHERE  member_id  > 0
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[461]	/eccore/model/mysql.php	289
+Sat, 11 Mar 2017 17:28:05 +0700	[256]MySQL Error[1054]: Unknown column 'member_id' in 'where clause'
+MySQL Query:SELECT COUNT(*) as c FROM mex_member member WHERE  member_id  > 0
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[461]	/eccore/model/mysql.php	289
+Sat, 11 Mar 2017 17:28:41 +0700	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,10' at line 1
+MySQL Query:SELECT user_name,real_name,email,wallet,user_id FROM mex_member member WHERE  user_id  > 0 ORDER BY   LIMIT 0,10
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[511]	/eccore/model/mysql.php	289
+Sat, 11 Mar 2017 17:28:54 +0700	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'LIMIT 0,10' at line 1
+MySQL Query:SELECT user_name,real_name,email,wallet,user_id FROM mex_member member WHERE  user_id  > 0 ORDER BY   LIMIT 0,10
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[511]	/eccore/model/mysql.php	289
+Sat, 11 Mar 2017 18:15:48 +0700	[256]MySQL Error[1054]: Unknown column 'id_card' in 'field list'
+MySQL Query:UPDATE mex_member SET real_name='admin',gender='F',address='',city='พำไพำไพำไพำไ',zipcode='',phone_tel='',id_card='',email='pu085@hotmail.com' WHERE user_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/model.base.php[584]	/eccore/model/mysql.php	289
+Sat, 11 Mar 2017 19:59:17 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mlm_ewallet' doesn't exist
+MySQL Query: SELECT *,ewallet.status as estatus FROM mlm_ewallet ewallet LEFT JOIN mlm_member_team member_team ON ewallet.member_id = member_team.member_id  LEFT JOIN mlm_member member ON member.user_id = member_team.member_id where tran_user=0 ORDER BY ewallet.e_id  DESC 
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[511]	/eccore/model/mysql.php	289
+Sat, 11 Mar 2017 20:03:18 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mlm_member_team' doesn't exist
+MySQL Query: SELECT *,ewallet.status as estatus FROM mlm_ewallet ewallet LEFT JOIN mlm_member_team member_team ON ewallet.member_id = member_team.member_id  LEFT JOIN mlm_member member ON member.user_id = member_team.member_id where tran_user=0 ORDER BY ewallet.e_id  DESC 
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[511]	/eccore/model/mysql.php	289
+Sat, 11 Mar 2017 20:44:27 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mlm_member_team' doesn't exist
+MySQL Query:SELECT member.user_name  FROM mlm_member_team member_team LEFT JOIN mlm_member member ON member_team.member_id = member.user_id LEFT JOIN mlm_member sponser ON member_team.sponsor = sponser.user_id LEFT JOIN mlm_member upline ON member_team.upline = upline.user_id ORDER BY member.user_id ASC 
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[511]	/eccore/model/mysql.php	289
+Wed, 15 Mar 2017 10:50:34 +0700	[256]MySQL Error[1054]: Unknown column 'd_active' in 'where clause'
+MySQL Query:SELECT *,order_alias.order_id FROM mex_order order_alias WHERE d_active = 0
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Wed, 15 Mar 2017 10:51:59 +0700	[256]MySQL Error[1054]: Unknown column 'order_alias.order_pv' in 'field list'
+MySQL Query:SELECT order_alias.order_sn,order_alias.date,order_alias.buyer_name,order_extm.consignee,order_alias.order_pv,order_alias.order_amount ,status,order_alias.order_id FROM mex_order order_alias LEFT JOIN mex_order_extm order_extm ON order_alias.order_id=order_extm.order_id ORDER BY order_sn asc LIMIT 0,10
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[511]	/eccore/model/mysql.php	289
+Wed, 15 Mar 2017 10:52:05 +0700	[256]MySQL Error[1054]: Unknown column 'order_alias.order_pv' in 'field list'
+MySQL Query:SELECT order_alias.order_sn,order_alias.date,order_alias.buyer_name,order_extm.consignee,order_alias.order_pv,order_alias.order_amount ,status,order_alias.order_id FROM mex_order order_alias LEFT JOIN mex_order_extm order_extm ON order_alias.order_id=order_extm.order_id ORDER BY order_sn asc LIMIT 0,10
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[511]	/eccore/model/mysql.php	289
+Tue, 21 Mar 2017 09:59:23 +0700	[256]MySQL Error[1054]: Unknown column 'phone' in 'field list'
+MySQL Query:UPDATE mex_member SET real_name='test test',email='fdas@ster.com',address='996/12 ม.15 บางเสาธง บางนา กทม.',phone='095-543-2655' WHERE user_id = 2
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/model.base.php[584]	/eccore/model/mysql.php	289
+Tue, 21 Mar 2017 17:27:33 +0700	[2]current() expects parameter 1 to be array, null given	/app/member.app.php	557
+Tue, 21 Mar 2017 17:27:33 +0700	[2]current() expects parameter 1 to be array, null given	/app/member.app.php	557
+Tue, 21 Mar 2017 17:29:59 +0700	[2]current() expects parameter 1 to be array, null given	/app/member.app.php	549
+Tue, 21 Mar 2017 17:30:00 +0700	[2]current() expects parameter 1 to be array, null given	/app/member.app.php	549
+Wed, 22 Mar 2017 17:26:08 +0700	[256]MySQL Error[1064]: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+MySQL Query:SELECT SUM(value) as total FROM mex_br_wallet WHERE type =1 and  status =1 and member_id =
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[461]	/eccore/model/mysql.php	289

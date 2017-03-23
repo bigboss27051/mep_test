@@ -1,0 +1,72 @@
+﻿ {include file=main_header.html}
+{include file=main_search.html}
+
+<div class="main-container">
+        <div class="container">
+            <div class="row">
+                
+					 {include file=menu_member.index.html}
+                <div class="col-sm-9 page-content">
+                   
+                    <div class="inner-box">
+                        <h2 class="title-2"><i class="icon-money"></i> รายการสั่งซื้อสินค้า</h2>
+
+                        <div style="clear:both"></div>
+
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                <tr>
+                                    <th><span> ID</span></th>
+                                    <th>ชื่อผู้รับ</th>
+                                    <th><strong>ประเภทการจ่าย</strong></th>
+                                    <th> ยอดเงิน</th>
+                                    <th>วิธการจัดส่ง</th>
+									<th>วันที่</th>
+                                    <th>สถานะ</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+									<!--{foreach from=$orders item=order}-->
+                                <tr>
+                                    <td><a href="index.php?app=member&act=orderdetail&id={$order.order_id}">#{$order.order_sn}</a></td>
+                                    <td>{$order.buyer_name}</td>
+                                    <td>{$order.payment_name} </td>
+
+                                    <td>{$order.goods_amount|price}</td>
+									<td>{$order.shipping_name}</td>
+                                    <td>{$order.add_time|date:complete}</td>
+                                    <td>{if $order.status eq '20'}<span class="label label-info">รอดำเนินการ</span>{/if}
+										{if $order.status eq '40'}<span class="label label-success">ชำระเงินแล้ว</span>{/if}
+										{if $order.status eq '0'}<span class="label label-danger">ยกเลิก</span>{/if}  
+                                    </td>
+                                </tr>
+                                 
+								<!--{foreachelse}-->
+								<tr class="no_data">
+									<td colspan="6">{$lang.no_data}</td>
+								</tr>
+								<!--{/foreach}-->
+
+                    
+                                
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div style="clear:both"></div>
+
+                    </div>
+                </div>
+		
+                     
+                <!--/.page-content-->
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </div>
+    <!-- /.main-container -->
+     
+ 
+{include file=main_footer.html}

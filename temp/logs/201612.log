@@ -1,0 +1,67 @@
+Thu, 01 Dec 2016 01:42:32 +0700	[256]Unkown database type.	/eccore/ecmall.php	555
+Thu, 01 Dec 2016 02:10:38 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:10:48 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:11:45 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:12:25 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:14:19 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:14:21 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:14:57 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:14:58 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:14:58 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:14:58 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:14:58 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:15:07 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:15:21 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:15:22 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:15:22 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Thu, 01 Dec 2016 02:15:55 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Sun, 25 Dec 2016 08:13:39 +0700	[256]MySQL Error[1146]: Table 'mahaexpr_tyy.mex_member_team' doesn't exist
+MySQL Query:SELECT *,member_team.member_id FROM mex_member_team member_team WHERE member_team.member_id = 1
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Sun, 25 Dec 2016 08:17:25 +0700	[256]MySQL Error[1054]: Unknown column 'g.good_code' in 'field list'
+MySQL Query:SELECT g.goods_id,g.good_code, g.store_id, g.type, g.goods_name, g.cate_id, g.cate_name, g.description, g.brand, g.spec_qty, g.spec_name_1, g.spec_name_2, g.if_show, g.closed, g.add_time, g.recommended, g.default_image, gs.spec_id, gs.spec_1, gs.spec_2, gs.color_rgb, gs.price, gs.stock,gs.pv, s.store_name, s.region_id, s.region_name, s.credit_value, s.sgrade, gst.views, gst.sales, gst.comments FROM mex_goods g LEFT JOIN mex_goods_spec gs ON g.default_spec = gs.spec_id LEFT JOIN mex_store s ON g.store_id = s.store_id LEFT JOIN mex_goods_statistics gst ON g.goods_id = gst.goods_id  WHERE 1 = 1   AND gs.spec_id IS NOT NULL   AND g.store_id = 0  ORDER BY goods_id desc, s.sort_order 
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Sun, 25 Dec 2016 08:18:42 +0700	[256]MySQL Error[1054]: Unknown column 'g.good_code' in 'field list'
+MySQL Query:SELECT g.goods_id,g.good_code, g.store_id, g.type, g.goods_name, g.cate_id, g.cate_name, g.description, g.brand, g.spec_qty, g.spec_name_1, g.spec_name_2, g.if_show, g.closed, g.add_time, g.recommended, g.default_image, gs.spec_id, gs.spec_1, gs.spec_2, gs.color_rgb, gs.price, gs.stock,gs.pv, s.store_name, s.region_id, s.region_name, s.credit_value, s.sgrade, gst.views, gst.sales, gst.comments FROM mex_goods g LEFT JOIN mex_goods_spec gs ON g.default_spec = gs.spec_id LEFT JOIN mex_store s ON g.store_id = s.store_id LEFT JOIN mex_goods_statistics gst ON g.goods_id = gst.goods_id  WHERE 1 = 1   AND gs.spec_id IS NOT NULL   AND g.store_id = 0  ORDER BY goods_id desc, s.sort_order 
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Sun, 25 Dec 2016 08:20:22 +0700	[256]MySQL Error[1054]: Unknown column 'gs.pv' in 'field list'
+MySQL Query:SELECT g.goods_id,g.good_code, g.store_id, g.type, g.goods_name, g.cate_id, g.cate_name, g.description, g.brand, g.spec_qty, g.spec_name_1, g.spec_name_2, g.if_show, g.closed, g.add_time, g.recommended, g.default_image, gs.spec_id, gs.spec_1, gs.spec_2, gs.color_rgb, gs.price, gs.stock,gs.pv, s.store_name, s.region_id, s.region_name, s.credit_value, s.sgrade, gst.views, gst.sales, gst.comments FROM mex_goods g LEFT JOIN mex_goods_spec gs ON g.default_spec = gs.spec_id LEFT JOIN mex_store s ON g.store_id = s.store_id LEFT JOIN mex_goods_statistics gst ON g.goods_id = gst.goods_id  WHERE 1 = 1   AND gs.spec_id IS NOT NULL   AND g.store_id = 0  ORDER BY goods_id desc, s.sort_order 
+Wrong File:  /home/mahaexpr/domains/maha-express.com/public_html/main/eccore/model/mysql.php[589]	/eccore/model/mysql.php	289
+Mon, 26 Dec 2016 06:44:42 +0700	[2]Invalid argument supplied for foreach()	/app/default.app.php	41
+Mon, 26 Dec 2016 08:04:20 +0700	[2]file_get_contents(): Filename cannot be empty	/app/default.app.php	33
+Tue, 27 Dec 2016 14:56:47 +0700	[2]Missing argument 1 for CartModel::get_sumtotal(), called in /home/mahaexpr/domains/maha-express.com/public_html/main/app/order.app.php on line 434 and defined	/includes/models/cart.model.php	37
+Tue, 27 Dec 2016 14:56:50 +0700	[2]Missing argument 1 for CartModel::get_sumtotal(), called in /home/mahaexpr/domains/maha-express.com/public_html/main/app/order.app.php on line 434 and defined	/includes/models/cart.model.php	37
+Tue, 27 Dec 2016 17:45:30 +0700	[2]file_get_contents(http://www.vcanbuy.com/cgi-bin/grab/vcb_grab.pl?u=https://world.taobao.com/item/45263687408.htm?spm=a312a.7728556.2015080705.19.ijaG9O&id=45263687408&scm=1007.12006.46753.i540028474334&pvid=def0f4b1-8519-4be6-a93c-a6cea0751db8): failed to open stream: HTTP request failed! HTTP/1.1 504 Gateway Time-out
+	/app/default.app.php	33

@@ -1,0 +1,91 @@
+﻿{include file=main_header.html}
+{include file=main_search.html}
+
+ 
+    <div class="main-container">
+        <div class="container">
+            <div class="row">
+                
+					 {include file=menu_member.index.html}
+                <div class="col-sm-9 page-content">
+                   
+
+                    <div class="inner-box">
+				
+                        <div class="welcome-msg">
+							<a class="btn btn-lg btn-primary pull-right" href="index.php?app=member&act=addwallet">แจ้งการเติมเครดิต</a>
+                            <h2 class="title-2"><i class="icon-money"></i>รายงานการใช้ Wallet</h2>
+							
+                        </div>
+						  
+						 
+					 
+                        <div id="accordion" class="panel-group">
+						 
+						 					
+                                          <table class="table table-bordered" style="padding-top:20px">
+			                                <thead>
+			                                <tr>
+			                                    <th>รายการบัญชี</th>
+			                                    <th>จำนวนเงิน</th>
+			                                    <th>คงเหลือ</th>
+			                                     
+												<th>วันที่</th>
+			                                    <th>หมายเหตุ</th>
+												 
+			                                </tr>
+			                                </thead>
+			                                <tbody>
+											<!--{foreach from=$orders item=order}-->
+			                                <tr>
+			                                    
+			                                    <td>
+												 
+													{if $order.type eq '1'}<span class="label label-success">{$order.wal_desc}</span>{/if}
+													{if $order.type eq '2'}<span class="label label-danger">{$order.wal_desc}</span>{/if}
+												</td>
+			                                    <td>{$order.value|price} </td>
+			
+			                                    <td>{$order.gtotal|price}</td>
+												
+			                                    <td>{$order.date} </td>
+												<td>{$order.remark}</td>
+											 
+			                                    
+			                                </tr>
+			                                 
+											<!--{foreachelse}-->
+											<tr class="no_data">
+												<td colspan="5">{$lang.no_data}</td>
+											</tr>
+											<!--{/foreach}-->
+			
+			                                
+			
+			                                 
+			                                 
+			
+			                                 
+			 
+			                                
+			                                </tbody>
+			                            </table>
+						 
+                            
+                            
+                             
+                        </div>
+                        <!--/.row-box End-->
+
+                    </div>
+                </div>
+                <!--/.page-content-->
+            </div>
+            <!--/.row-->
+        </div>
+        <!--/.container-->
+    </div>
+    <!-- /.main-container -->
+
+
+{include file=main_footer.html}
